@@ -4,11 +4,15 @@
 #| |___) |
 #|_|____/ 
 
-exec wal -i /home/filip/wallpapers/3.jpg
+exec wallpaper ~/wallpapers 
 
 set $mod Mod4
 
 font pango:JetBrains Mono 12
+
+#choose randomly new wallpaper/colorscheme
+bindsym $mod+Shift+w exec wallpaper ~/wallpapers
+
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
