@@ -155,7 +155,7 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 
-bindsym $mod+d exec dmenu_run -c -l 20 -fn "JetBrains Mono 8" -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+bindsym $mod+d exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
